@@ -84,9 +84,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+
+
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: .1;
+  margin-bottom: .1rem;
 }
 
 abbr[title],
@@ -630,6 +632,19 @@ pre code {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+}
+
+.row-centered {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-centered {
+display:inline-block;
+float:none;
+/* reset the text-align */
+text-align:left;
+/* inline-block space fix */
+margin-right:-4px;
 }
 
 .row-cols-1 > * {
